@@ -1,0 +1,18 @@
+<paste log output from Kubernetes-mediated prediction, here>
+(.devops) MacBook-Pro:project-ml-microservice-kubernetes user$ ./run_kubernetes.sh 
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "microservice" already exists
+NAME                            READY   STATUS    RESTARTS   AGE
+microservice-76c77b9685-b647s   1/1     Running   0          6m10s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000

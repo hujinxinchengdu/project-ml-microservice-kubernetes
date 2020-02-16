@@ -1,0 +1,34 @@
+<paste log output from Docker prediction, here>
+[2020-02-12 05:52:33,338] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-02-12 05:52:33,371] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-02-12 05:52:33,386] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-02-12 05:52:33,394] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+172.17.0.1 - - [12/Feb/2020 05:52:33] "POST /predict HTTP/1.1" 200 -
+[2020-02-12 05:52:46,745] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-02-12 05:52:46,768] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-02-12 05:52:46,792] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-02-12 05:52:46,800] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+172.17.0.1 - - [12/Feb/2020 05:52:46] "POST /predict HTTP/1.1" 200 -
+[2020-02-12 05:52:47,830] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-02-12 05:52:47,862] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-02-12 05:52:47,886] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-02-12 05:52:47,892] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+172.17.0.1 - - [12/Feb/2020 05:52:47] "POST /predict HTTP/1.1" 200 -
